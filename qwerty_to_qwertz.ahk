@@ -10,6 +10,9 @@
 ; Alt + E für Euro-Zeichen
 !e::Send("€") ; Alt + E -> €
 
+; Alt + ` für Grad C(elsius)
+!`::Send("°") ; Alt + ` -> °
+
 ; Z und Y vertauschen
 $z::Send("y")
 $+z::Send("Y")
