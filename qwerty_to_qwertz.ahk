@@ -1,3 +1,10 @@
+#Requires AutoHotkey v2.0
+#SingleInstance Force
+
+; --- Windows Fenster Menü Wechsel unterdrücken ---
+~LAlt::SendInput "{Blind}{vk07}"
+~RAlt::SendInput "{Blind}{vk07}"
+
 ; Umschalten für Umlaute mit Alt + (Shift) + A/U/O/S
 !a::Send("ä") ; Alt + A -> ä
 !+a::Send("Ä") ; Alt + Shift + A -> Ä
